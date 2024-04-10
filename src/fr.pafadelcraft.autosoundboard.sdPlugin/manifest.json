@@ -1,0 +1,45 @@
+{
+	"SDKVersion": 2,
+	"Author": "rvHoney",
+	"CodePath": "app.html",
+	"Description": "Play soundboards automatically when you join a Discord voice channel.",
+	"Name": "Auto Soundboard",
+	"Icon": "actions/template/assets/action",
+	"URL": "https://github.com/rvHoney/autosoundboard-streamdeck",
+	"Version": "1.0.2",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Auto Soundboard",
+	"CategoryIcon": "actions/template/assets/actionimage",
+	"Actions": [
+		{
+			"Icon": "actions/template/assets/actionimage",
+			"Name": "Example Action",
+			"Controllers": ["Keypad", "Encoder"],
+			"Encoder": {
+				"layout": "$B1",
+				"TriggerDescription": {
+					"Rotate": "Describe the rotation",
+					"Push": "Describe the encoder push",
+					"Touch": "Describe the touch",
+					"LongTouch": "Describe the long touch"
+				}
+			},
+			"States": [
+				{
+					"Image": "actions/template/assets/action"
+				}
+			],
+			"Tooltip": "This is an example tooltip",
+			"UUID": "com.elgato.template.action",
+			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
+		}
+	]
+}
